@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+
+} 
+.entire {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  width: 75%;
+  height: auto;
+  border: solid black 1px;
+  flex-direction: column;
+}
+
+.side {
+  display: flex;
+  height: ;
+  width: 25%;
+  border: solid black 1px;
+  flex-direction: column;
+}
+.side a {
+  /* background-color: aqua; */
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #c0c0c0;
+  font-size: 20px;
+}
+.side a:hover {
+    background-color: blanchedalmond;
+    color: #000000;
+  }
+.Account{
+    
+}
+.navigationBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: #000000; /* Black gradient background */
+  background-image: linear-gradient(to bottom right, #000000, #333333);
+  /* margin: 0 10px; */
+  /* background-color: blue; */
+}
+.navigationBar input {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: 14px;
+}
+table{
+    
+}
+.section1 {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.box {
+  height: 300px;
+  width: 350px;
+  background-color: aquamarine;
+  border-radius: 50px;
+  margin: 10px;
+}
+table {
+  border: solid black 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr {
+    height: 39px;
+  border: solid black 1px;
+}
+td {
+  border: solid black 1px;
+}
+th {
+  border: solid black 1px;
+}
+.side.Account {
+  align-self: flex-end;
+}
+.Workspace p {
+  font-size: 50px;
+  padding: 10px;
+}
